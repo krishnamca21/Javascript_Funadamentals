@@ -21,5 +21,6 @@ export class JavascriptFundamentalsComponent implements OnInit {
       factorial = factorial * i;
     }
     return factorial;
+
   }
 }
