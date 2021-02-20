@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "JavascriptFundamentals"
+  "defaultProject": "JavascriptFundamentals",
+  "cli": {
+    "analytics": false
+  }
 }
