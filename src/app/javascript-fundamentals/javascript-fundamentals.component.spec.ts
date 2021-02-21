@@ -21,4 +21,9 @@ fdescribe('JavascriptFundamentalsComponent', () => {
     const result = component.calculateFactorialForGivenNumber(3);
     expect(6).toEqual(result);
   });
+
+  fit('should calculate the sum of the given number', () => {
+    const result = component.getSumOfNnumbersUsingForLoop(12);
+    expect(78).toEqual(result);
+  });
 });

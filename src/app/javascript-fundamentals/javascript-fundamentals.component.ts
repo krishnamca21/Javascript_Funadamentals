@@ -23,4 +23,24 @@ export class JavascriptFundamentalsComponent implements OnInit {
     return factorial;
 
   }
+  getSumOfNnumbersUsingWhileLoop(n: number): number {
+    let sum = 0;
+    let i = 0;
+    while (i <= n) {
+      sum = sum + i;
+      i = i + 1;
+    }
+    return sum;
+  }
+
+  getSumOfNnumbersUsingForLoop(n: number): number {
+    let sum = 0;
+    let i = 0;
+    for (; i <= n;) {
+      sum = sum + i;
+      i = i + 1;
+    }
+    return sum;
+  }
+
 }
