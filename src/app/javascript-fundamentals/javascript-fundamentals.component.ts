@@ -39,8 +39,22 @@ export class JavascriptFundamentalsComponent implements OnInit {
     for (; i <= n;) {
       sum = sum + i;
       i = i + 1;
+      console.log("The sum is " + sum);
     }
     return sum;
   }
+  getMathTableUsingForLoop(n: number): Array<number> {
+    const values = new Array<number>();
+    let mul = 0;
+    let i = 1;
+    for (; i <= 20; i++) {
+      mul = n * i;
+      values.push(mul);
+      console.log(n + " X " + i + " = " + mul);
+    }
+    return values;
+  }
 
 }
+
+
