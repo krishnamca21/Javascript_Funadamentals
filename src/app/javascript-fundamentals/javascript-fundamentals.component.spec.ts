@@ -25,5 +25,6 @@ fdescribe('JavascriptFundamentalsComponent', () => {
   fit('should calculate the sum of the given number', () => {
     const result = component.getSumOfNnumbersUsingForLoop(12);
     expect(78).toEqual(result);
+
   });
 });
